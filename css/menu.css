@@ -1,0 +1,107 @@
+/* Menu */
+
+.fa-bars {
+    display: none;
+}
+
+.item-active {
+    color: #944DE8 !important;
+    padding: 14px 0;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.item {
+    padding: 14px 0;
+    color: #3F3A64;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.nav-item {
+    padding: 0 6px;
+}
+.logo a{
+    margin: 0;
+    padding: 0;
+    font-size: 31px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #944DE8;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.nav-menu {
+    width: 100%;
+    margin: auto;
+    height: 92px;
+    position: fixed !important;
+    background-color: white;
+    z-index: 9999;
+}
+
+.lst-menu {
+    justify-content: flex-end;
+}
+
+.sun1 {
+    display: none !important;
+}
+.moon1 {
+    display: block !important;
+}
+
+.item {
+    position: relative;
+}
+.item::after {
+    content: "";
+    height: 1px;
+    width: 0;
+    background-color:#944DE8 ;
+    position: absolute;
+    bottom: 5px;
+    left: 6px;
+    transition: width 0.4s;
+}
+.item:hover::after {
+    width: 80%;
+    margin: auto;
+}
+
+.item-arrow {
+    color: #3F3A64;
+}
+
+.item:hover, .item-arrow:hover {
+    color: #944DE8;
+}
+
+.btn-close {
+    display: none;
+}
+
+.clone-menu::before {
+    content: " ";
+    position: absolute;
+    bottom: 100%; /* mũi tên ở phía trên*/
+    left: 38%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #ddd transparent;
+    background-color: white;
+}
+
+/* dấu nháy */
+#typewriter {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }

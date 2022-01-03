@@ -1,0 +1,284 @@
+   /* <=500px */
+   @media only screen and (max-width : 501px) {
+        /* banner */
+        .img-photo {
+           margin: 0;
+           width: 400px;
+       }
+       /* who am i */
+       .flex-who {
+           display: block;
+       }
+
+       .img-who {
+           margin: 0;
+           width: 100%;
+       }
+
+       .who-content {
+           padding-top: 10%;
+           width: 110%;
+           padding-bottom: 10%;
+       }
+
+       .who-content h1 {
+           font-size: 32px;
+           line-height: 38px;
+       }
+
+       .blogCarousel {
+           width: 100%;
+       }
+
+       .btn3 {
+           display: block !important;
+       }
+
+
+       .carousel-inner {
+           padding-bottom: 10%;
+       }
+       
+       .main-contents {
+           width: 100%;
+       }
+
+       .main-contents h1 {
+            font-size: 32px;
+            line-height: 38px;
+       }
+       
+       .popup-video img {
+            width: 450px;
+       }
+
+       .btn-check {
+          padding-top: 12%;
+       }
+
+       .btn-video {
+          margin: 20% 40%;
+       }
+
+       .slide-first {
+           visibility: hidden;
+           width: 0%;
+           height: 0;
+       }
+
+       .slide-second {
+           display: block;
+       }
+
+       .btn-check {
+           display: none !important;
+       }
+
+       .btn-check-slide2 {
+        height: 20px !important;
+        margin: auto !important;
+        top: 350px !important;
+       }
+       
+
+       /* TESTIMONIALS */
+      .slide1 {
+          display: none;
+      } 
+
+      .slide2 {
+          display: block !important;
+      }
+
+
+        /*Menu*/
+        .nav-menu {
+            width: 100%;
+        }
+        .lst-menu {
+            background-color: white;
+            width: 100%;
+            text-align: center;
+            display: none;
+            order: 4;
+        }
+
+        .mode {
+            order: 2;
+        }
+
+        .bars {
+            order: 3;
+        }
+        .logo {
+            order: 1;
+        }
+        
+        .drop-item {
+            text-align: center !important;         
+        }
+
+        .bars, .btn-close {
+           display: flex;
+           background-color: #944DE8;
+           width: 35px;
+           height: 35px;
+           justify-content: center;
+           align-items: center;
+           color: white;
+           border-radius: 5px;
+           font-size: 20px;
+
+        }
+
+        .btn-close {
+            display: none;
+        }
+        
+        .fa-bars {
+            display: block;
+        }
+
+        .item:hover::after {
+            width: 0%;
+        }
+
+        /* Banner */
+        .main-banner {
+            display: block !important;
+            padding-top: 20%;
+        }
+
+        .banner-clone1 span, .banner-clone1 h1{
+            font-size: 38px;
+            line-height: 45px;
+        }
+
+        .banner-clone2 span, .banner-clone2 h1{
+            font-size: 38px;
+            line-height: 45px;
+        }
+
+        .content {
+            width: 100%;
+        }
+
+        .btn-banner{
+            padding-bottom: 5%;
+        }
+        
+        .logo{
+            width: 80%;
+        }
+
+        .slide-first {
+            display: none;
+        }
+
+
+   }
+   
+   
+   
+   /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-width: 502px) and (max-width : 993px){
+
+       
+        /*Menu*/
+        .nav-menu {
+            width: 100%;
+        }
+        .lst-menu {
+            background-color: white;
+            width: 100%;
+            text-align: center;
+            display: none;
+            order: 4;
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .mode {
+            order: 2;
+        }
+
+        .bars {
+            order: 3;
+        }
+        .logo {
+            order: 1;
+            width: 90%;
+        }
+        
+        .drop-item {
+            text-align: center !important;         
+        }
+
+        .bars, .btn-close {
+           display: flex;
+           background-color: #944DE8;
+           width: 35px;
+           height: 35px;
+           justify-content: center;
+           align-items: center;
+           color: white;
+           border-radius: 5px;
+           font-size: 20px;
+
+        }
+
+        .btn-close {
+            display: none;
+        }
+        
+        .fa-bars {
+            display: block;
+        }
+
+        .item:hover::after {
+            width: 0%;
+        }
+
+        /* Banner */
+        .main-banner {
+            display: block;
+        }
+
+        .img-photo {
+            width: 60%;
+            padding-top: 5%;
+        }
+        
+        .content {
+            width: 100%;
+        }
+
+        /* Who Am I*/
+        .flex-who {
+            display: block;
+        }
+
+        .who-content {
+            width: 100%;
+        }
+
+        .img-who {
+            width: 100%;
+            padding-bottom: 5%;
+        }
+
+    }
+
+
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 991px){
+        
+        .bars {
+            display: none;
+        }
+    }
+    

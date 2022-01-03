@@ -1,0 +1,173 @@
+ /* <=500px */
+ @media only screen and (max-width : 501px) {
+     /*Menu*/
+
+     #my-services {
+        padding-top: 20%;
+     }
+
+     .list-home {
+        width: 100%;
+     }
+
+     .nav-menu {
+        width: 100%;
+    }
+    .lst-menu {
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        display: none;
+        order: 4;
+    }
+
+    .mode {
+        order: 2;
+    }
+
+    .bars {
+        order: 3;
+    }
+    .logo {
+        order: 1;
+        width: 80%;
+    }
+    
+    .drop-item {
+        text-align: center !important;         
+    }
+
+    .bars, .btn-close {
+       display: flex;
+       background-color: #944DE8;
+       width: 35px;
+       height: 35px;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       border-radius: 5px;
+       font-size: 20px;
+
+    }
+
+    .btn-close {
+        display: none;
+    }
+    
+    .fa-bars {
+        display: block;
+    }
+
+    .item:hover::after {
+        width: 0%;
+    }
+
+    .active-service{
+        width: 100% !important;
+    }
+    /* Service */
+
+    .container-items {
+        width: 100%;
+    }
+
+    .service-item {
+        margin: 2% 0;
+    }
+
+    /* price */
+    .price {
+        flex-wrap: wrap;
+    }
+
+    .price-div {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+}
+
+
+ @media only screen and (min-width : 501px) and (max-width: 994px) {
+    /*Menu*/
+
+    #my-services {
+       padding-top: 20%;
+    }
+
+    .list-home {
+       width: 100%;
+    }
+
+    .nav-menu {
+       width: 100%;
+   }
+   .lst-menu {
+       background-color: white;
+       width: 100%;
+       text-align: center;
+       display: none;
+       order: 4;
+   }
+
+   .mode {
+       order: 2;
+   }
+
+   .bars {
+       order: 3;
+   }
+   .logo {
+       order: 1;
+       width: 80%;
+   }
+   
+   .drop-item {
+       text-align: center !important;         
+   }
+
+   .bars, .btn-close {
+      display: flex;
+      background-color: #944DE8;
+      width: 35px;
+      height: 35px;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      border-radius: 5px;
+      font-size: 20px;
+
+   }
+
+   .btn-close {
+       display: none;
+   }
+   
+   .fa-bars {
+       display: block;
+   }
+
+   .item:hover::after {
+       width: 0%;
+   }
+   /* Service */
+
+   .container-items {
+       width: 100%;
+   }
+
+   .service-item {
+       margin: 2% 0;
+   }
+
+   /* price */
+   .price {
+       flex-wrap: wrap;
+   }
+
+   .price-div {
+       width: 100%;
+       margin: 5% 0;
+   }
+
+}
